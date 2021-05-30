@@ -9,28 +9,52 @@
 <link rel="stylesheet" href="Styles.css"> 
 </head>
 <body>
-<header>
-    <i class="fab fa-linkedin"></i>
+<header class="header">
 <nav class="topnav">
+  <span class="logo"> <i class="fab fa-linkedin"></i> </span>  
        <!-- <input type="text" placeholder="Search.."> -->
-        <ul>
-        <i class="fas fa-search"></i>
-        <li>Search</li>
-        <i class="fas fa-home"></i>
-        <li>Home</li>
-        <i class="fas fa-user-friends"></i>
-        <li>My Network</li>
-        <i class="fas fa-briefcase"></i>
-        <li>Jobs</li>
-        <i class="fas fa-comment-dots"></i>
-        <li>Messaging</li>
-        <i class="fas fa-bell"></i>
-        <li>Notifications</li>
+        <ul class="navbar">
+        <li>
+            <a href="#search">
+            <i class="fas fa-search"></i>
+            Search
+        </a>
+     </li>
+        <li>
+            <a href="#home">
+            <i class="fas fa-home"></i>
+            Home
+        </a>
+    </li>
+        <li>
+            <a href="#mynetwork">
+             <i class="fas fa-user-friends"></i>
+            My Network
+        </a>
+    </li>
+        <li>
+            <a href="#jobs">
+            <i class="fas fa-briefcase"></i>
+            Jobs
+        </a>
+    </li>
+        <li>
+            <a href="#messaging">
+            <i class="fas fa-comment-dots"></i>
+            Messaging
+        </a>
+    </li>
+        <li>
+            <a href="#notifications">
+            <i class="fas fa-bell"></i>
+            Notifications
+        </a>
+    </li>
     </ul>
-    <button type="button">
+    <button type="button" class="btn firstNavButton">
         <img src="Fateme.jpg" alt="LinkedIn Logo" width="15 rem" height="15rem">
         Me</button>
-    <button type="button">
+    <button type="button" class="btn secondNavButton">
         <i class="fas fa-th"></i>
         Work</button>
 </nav>
