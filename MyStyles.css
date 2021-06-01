@@ -62,6 +62,8 @@ ul {
 li {
   margin: 0 15px 0 15px;
   list-style-type: none;
+  text-align: center;
+  font-size: small;
 }
 
 .logo {
@@ -97,7 +99,7 @@ li {
 .secondNavButton {
   background-color: #fff;
   color: grey;
-  text-align: right;
+  text-align: center;
 }
 
 .secondNavButton {
