@@ -14,7 +14,7 @@ html {
 }
 body {
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background: rgba(68, 22, 235, 0.1);
   display: flex;
   flex-direction: column;
 }
@@ -41,7 +41,7 @@ a:hover {
 
 .topnav {
   background-color: #fff;
-  height: 3rem;
+  height: 3.3rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -67,17 +67,20 @@ li {
 }
 
 .logo {
-  font-size: xx-large;
-  color: blue;
-  margin-left: 10rem;
+  font-size: 2.3rem;
+  color: #0a66c2;
+  margin-left: 15rem;
   cursor: pointer;
 }
 
 .search {
+  width: 17rem;
   border-radius: 3px;
   background-color: #e1e9ee;
-  padding: 0.25rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
   font-size: smaller;
+  margin-right: 4rem;
 }
 
 .btn {
@@ -132,119 +135,165 @@ li {
 
 .sec {
   justify-items: center;
-  margin-left: 300px;
+  margin-left: 14rem;
 }
 
 .profile {
-  width: 70%;
+  width: 75%;
   height: 20rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .dashboard {
-  width: 70%;
+  width: 75%;
   height: 20rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .about {
-  width: 70%;
+  width: 75%;
   height: 5rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .activity {
-  width: 70%;
+  width: 75%;
   height: 20rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .experience {
-  width: 70%;
+  width: 75%;
   height: 20rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  border-bottom: 1px solid #d6cec2;
+  border-radius: 0.5rem;
 }
 
 .education {
-  width: 70%;
+  width: 75%;
   height: 20rem;
+  background-color: #fff;
+  border-bottom: 1px solid #d6cec2;
+  border-radius: 0.5rem;
 }
 
 .certificates {
-  width: 70%;
+  width: 75%;
   height: 20rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .skills {
-  width: 70%;
+  width: 75%;
   height: 20rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .accomplishments {
-  width: 70%;
+  width: 75%;
   height: 20rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
 
 .intrests {
-  width: 70%;
+  width: 75%;
   height: 20rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
 }
 
 .sideBar {
-  margin-right: 12rem;
+  margin-right: 14rem;
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30vh;
+  width: 40vh;
 }
 
 .sided-first {
   width: 100%;
   height: 20rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
 }
 
 .sided-second {
   width: 100%;
   height: 20rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
 }
 
 .sided-third {
   width: 100%;
   height: 20rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
 }
 
 .sided-fourth {
   width: 100%;
   height: 20rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
 }
 
 .sided-fifth {
   width: 100%;
   height: 20rem;
-  background-color: #d6cec2;
+  background-color: #fff;
+  border-radius: 0.5rem;
 }
 
 .footer {
-  width: 75%;
-  height: 20rem;
-  border-top: #d6cec2 solid 2px;
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 2rem 14rem;
+  padding-top: 1.5rem;
+  height: 30vh;
+  border-top: 1px solid rgba(32, 34, 34, 0.5);
+}
+
+.mercado-match {
+  color: #0a66c2;
+}
+
+.footerIcon {
+  color: gray;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
 }
 
 /*---Media Queries --*/
 
 @media (max-width: 992px) {
-  
 }
-
 @media (max-width: 768px) {
-  
 }
-
 @media (max-width: 576px) {
-  
 }
-
