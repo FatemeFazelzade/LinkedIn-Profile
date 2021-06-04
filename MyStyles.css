@@ -105,6 +105,10 @@ li {
   text-align: center;
 }
 
+.firstNavButton {
+  margin-right: 1rem;
+}
+
 .secondNavButton {
   border-left: #d6cec2 solid 2px;
   height: inherit;
@@ -136,6 +140,8 @@ li {
 .sec {
   justify-items: center;
   margin-left: 14rem;
+  padding: 2rem 2rem;
+  font-size: small;
 }
 
 .profile {
@@ -156,7 +162,7 @@ li {
 
 .about {
   width: 75%;
-  height: 5rem;
+  height: 10rem;
   background-color: #fff;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
@@ -217,6 +223,11 @@ li {
   border-radius: 0.5rem;
 }
 
+.secContent {
+  display: flex;
+  flex-direction: column;
+}
+
 .sideBar {
   margin-right: 14rem;
   margin-top: 5rem;
@@ -226,11 +237,16 @@ li {
   width: 40vh;
 }
 
+.side {
+  padding: 1.5rem 1rem;
+  font-size: small;
+}
+
 .sided-first {
   width: 100%;
   height: 20rem;
   background-color: #fff;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   border-radius: 0.5rem;
 }
 
@@ -238,7 +254,7 @@ li {
   width: 100%;
   height: 20rem;
   background-color: #fff;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   border-radius: 0.5rem;
 }
 
@@ -246,7 +262,7 @@ li {
   width: 100%;
   height: 20rem;
   background-color: #fff;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   border-radius: 0.5rem;
 }
 
@@ -254,7 +270,7 @@ li {
   width: 100%;
   height: 20rem;
   background-color: #fff;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   border-radius: 0.5rem;
 }
 
@@ -266,17 +282,28 @@ li {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
   width: 70%;
   margin: 2rem 14rem;
   padding-top: 1.5rem;
-  height: 30vh;
-  border-top: 1px solid rgba(32, 34, 34, 0.5);
+  height: 25vh;
+  border-top: 0.008rem solid gray;
 }
 
 .mercado-match {
   color: #0a66c2;
+}
+
+.footerWithoutLogo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.footerAdd {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  justify-content: left;
 }
 
 .footerIcon {
@@ -284,11 +311,32 @@ li {
 }
 
 .footerLinks {
-  display: flex;
-  flex-direction: column;
+  padding-left: 0rem;
+  display: grid;
+  grid-template-columns: 12rem 12rem 12rem;
+  grid-template-rows: 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem;
   list-style-type: none;
+  align-items: baseline;
 }
 
+.pageLang {
+  color: grey;
+  font-size: small;
+}
+
+#selectLanguage {
+  color: gray;
+  all: unset;
+  border: gray solid 0.08rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.corporation {
+  margin: 1rem 14rem;
+  font-size: small;
+  color: grey;
+}
 /*---Media Queries --*/
 
 @media (max-width: 992px) {
