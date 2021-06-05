@@ -110,15 +110,15 @@ li {
 }
 
 .secondNavButton {
-  border-left: #d6cec2 solid 2px;
+  border-left: rgba(68, 22, 235, 0.1) solid 2px;
   height: inherit;
   padding-left: 2rem;
 }
 
 .premium {
   color: #915907;
-  margin-right: 10rem;
-  font-size: smaller;
+  margin: 0rem 10rem 0rem 2rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -168,6 +168,19 @@ li {
   border-radius: 0.5rem;
 }
 
+.aboutMe {
+  padding-top: 1rem;
+}
+
+.aboutPart {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutEdit {
+  margin-left: 38rem;
+}
+
 .activity {
   width: 75%;
   height: 20rem;
@@ -186,10 +199,25 @@ li {
 
 .education {
   width: 75%;
-  height: 20rem;
+  height: 15rem;
   background-color: #fff;
   border-bottom: 1px solid #d6cec2;
   border-radius: 0.5rem;
+}
+
+.khajeh {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.khajehLogo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.year {
+  color: grey;
 }
 
 .certificates {
@@ -218,14 +246,31 @@ li {
 
 .intrests {
   width: 75%;
-  height: 20rem;
+  height: 23rem;
   background-color: #fff;
   border-radius: 0.5rem;
+}
+
+.secGridContent {
+  display: grid;
+  grid-template-columns: 23rem 23rem;
+  grid-template-rows: 5rem 5rem 5rem;
+  margin-top: 2rem;
 }
 
 .secContent {
   display: flex;
   flex-direction: column;
+}
+
+.interestLi {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutLogo {
+  width: 3rem;
+  height: 3rem;
 }
 
 .sideBar {
@@ -235,6 +280,10 @@ li {
   flex-direction: column;
   align-items: center;
   width: 40vh;
+}
+
+.sideLogo {
+  font-size: 1rem;
 }
 
 .side {
@@ -287,6 +336,7 @@ li {
   padding-top: 1.5rem;
   height: 25vh;
   border-top: 0.008rem solid gray;
+  font-size: small;
 }
 
 .mercado-match {
@@ -304,6 +354,12 @@ li {
   flex-direction: column;
   width: 16rem;
   justify-content: left;
+  list-style-type: none;
+  color: gray;
+}
+
+.icon {
+  display: flex;
 }
 
 .footerIcon {
@@ -333,10 +389,11 @@ li {
 }
 
 .corporation {
-  margin: 1rem 14rem;
+  margin: 1.5rem 0rem 0rem 0rem;
   font-size: small;
   color: grey;
 }
+
 /*---Media Queries --*/
 
 @media (max-width: 992px) {
